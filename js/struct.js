@@ -46,6 +46,8 @@ Object.prototype.toString.call(null)
 Object.prototype.toString.call(Math)
 Object.prototype.toString.call({})
 Object.prototype.toString.call([])
+Object.prototype.toString.call([])
+Object.prototype.toString.call([])
 
 var type = function(o){
 	var s = Object.prototype.toString.call(o);
